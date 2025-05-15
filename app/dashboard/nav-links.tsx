@@ -5,7 +5,19 @@ import {
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
  
-// ...
+const links = [
+  {
+    name: 'Dashboard',
+    href: '/dashboard',
+    icon: HomeIcon,
+  },
+  {
+    name: 'Invoices',
+    href: '/dashboard/invoices',
+    icon: DocumentDuplicateIcon,
+  },
+  // ...otros enlaces...
+];
  
 export default function NavLinks() {
   return (
